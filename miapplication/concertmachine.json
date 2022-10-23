@@ -1,0 +1,15 @@
+{
+	"miapplicationdescription": {
+		"name": "concertmachine",
+		"realtimetimer1priority": 10,
+		"realtimetimer1scheduling": "fifo",
+		"realtimetimer1intervall": 10,
+
+		"realtimetimer2priority": 50,
+		"realtimetimer2scheduling": "fifo",
+		"realtimetimer2intervall": 100,
+		"idletimerpriority": 0,
+		"idletimerscheduling": "other",
+		"idletimerintervall":200
+	}
+}
