@@ -25,7 +25,7 @@ int main()
     {
         printf("Error %d\n", result);
     }
-    result = iomanager.AddIOModul("hoerter13", "mipcf8574inmodul", "address=13");//with manually offset
+    result = iomanager.AddIOModul("hoerter13", "mipcf8574outmodul", "address=13");//with manually offset
     if (result != miIOManager::IOManagerResult::Ok)
     {
         printf("Error %d\n", result);
@@ -35,7 +35,7 @@ int main()
     //start the drivers
     iomanager.StartIOCycle(10);
     //start the application
-    machine.Start();
+   // machine.Start();
 
 
     printf("start aus %s!\n", "miapplicationTest");
